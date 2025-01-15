@@ -28,6 +28,7 @@
     border-color: #006A50;
     background-color: #F5F5F5;
     font-size: 18px;
+    
 
    }
    
@@ -37,6 +38,8 @@
     background-color: #006A50;
     padding: 17px 34px;
     color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
    }
 
 
@@ -63,3 +66,107 @@
     font-size: 56px;
    }
   
+   /*cards section styles */
+
+   .title{
+    font-size: 40px;
+   }
+
+   .cards-container{
+    padding: 24px;
+    line-height: 24px;
+    gap: 24px;
+    display: flex;
+    padding: 24px;
+    
+
+   }
+   /* pillars styles */
+
+   .Pillars{
+    text-align:left;
+    flex: 1;
+
+   }
+
+   .pillar-title{
+    border-radius: 16px;
+    border-color: rgba(14, 14, 14, 0.5);
+    background-color: #FFFFFF;
+    padding-top: 8px;
+    font-size: 20px;
+   }
+   .card-des{
+    font-size: 16px;
+    
+    
+   }
+
+   /* Vision section styles */
+   
+   .vision-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+   }
+   .card{
+    flex: 1;
+    border-radius: 16px;
+    padding: 32px;
+    text-align:left;
+    justify-content: space-between;
+    
+   }
+    
+   .vsn-title{
+    font-weight: bold;
+    font-size: 20px;
+   }
+  .vsn-des {
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7) ;
+    padding-top: 12px;
+  }
+  .intro{
+    font-size: 16px;
+    line-height: 24px;
+    color:rgba(14, 14, 14, 0.7) ;
+  }
+    
+  .blue{
+    background-color:rgba(84, 144, 245, 0.2) ;
+  }
+  .green{
+    background-color: rgba(198, 228, 214, 1);
+  }
+  .yellow{
+    background-color:rgba(247, 235, 207, 1) ;
+  }
+
+  .button{
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+   
+    
+  }
+  .blue-btn{
+    background-color: #5490F5;
+    padding: 20px;
+    
+  }
+  .green-btn{
+    background-color: #09A15C;
+    padding: 20px;
+  }
+  .yellow-btn{
+    background-color: #FFC239;
+    padding: 20px;
+  }
+ /* Button colors  */
