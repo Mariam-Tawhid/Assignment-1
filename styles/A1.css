@@ -1,0 +1,65 @@
+/* Fira sans font */
+
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+   /* nav styles */
+   nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+   }
+
+   .nav-title{
+    color: #0E0E0E;
+    font-size: 25px;
+   }
+
+   .nav-btn{
+    color: #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-weight: bold;
+    border-color: #006A50;
+    background-color: #F5F5F5;
+    font-size: 18px;
+
+   }
+   
+
+   /* Button */
+   .btn-des{
+    background-color: #006A50;
+    padding: 17px 34px;
+    color: #FFFFFF;
+   }
+
+
+
+   /* Banner styles */
+   .banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: #C6E4D6;
+    padding: 100px 80px;
+    border-radius: 25px;
+   }
+
+   .banner-content{
+
+   }
+   .banner-title{
+    color: rgba(14, 14, 14, 0.5)
+   }
+   
+   .banner-description{
+    font-weight: bold;
+    font-size: 56px;
+   }
+  
